@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air India | Fly the New Feeling</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <header class="navbar">
+        <a href="#" class="brand">
+            <span class="brand-symbol">✦</span>
+            <span class="brand-name">AIR INDIA</span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="#book">Book</a>
+            <a href="#manage">Manage Booking</a>
+            <a href="#checkin">Check-in</a>
+            <a href="#status">Flight Status</a>
+        </nav>
+
+        <a href="#book" class="nav-button">Book a Flight</a>
+    </header>
+
+    
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">WELCOME ABOARD</p>
+                <h1>Fly the world.<br><span>Feel the new.</span></h1>
+                <p class="hero-description">
+                    Discover extraordinary journeys, thoughtful hospitality,
+                    and a whole new way to fly with Air India.
+                </p>
+                <a href="#book" class="primary-button">Explore Flights <span>→</span></a>
+            </div>
+
+            <div class="hero-caption">
+                <span class="caption-line"></span>
+                <span>YOUR JOURNEY, REIMAGINED</span>
+            </div>
+        </section>
+
+       
+        <section class="booking-section" id="book">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow red-text">LET'S GET YOU THERE</p>
+                    <h2>Where would you like to go?</h2>
+                </div>
+                <span class="trip-label">✈ Plan your journey</span>
+            </div>
+
+            <div class="booking-card">
+                <div class="trip-options">
+                    <label><input type="radio" name="trip" checked> One way</label>
+                    <label><input type="radio" name="trip"> Round trip</label>
+                </div>
+
+                <form class="flight-form" action="#">
+                    <div class="field">
+                        <label for="from">FROM</label>
+                        <input id="from" type="text" placeholder="Departure city" required>
+                    </div>
+
+                    <div class="swap-icon" aria-hidden="true">⇄</div>
+
+                    <div class="field">
+                        <label for="to">TO</label>
+                        <input id="to" type="text" placeholder="Arrival city" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="departure">DEPARTURE</label>
+                        <input id="departure" type="date" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="passengers">PASSENGERS</label>
+                        <select id="passengers">
+                            <option>1 Adult</option>
+                            <option>2 Adults</option>
+                            <option>3 Adults</option>
+                            <option>4 Adults</option>
+                            <option>5 Adults</option>
+                        </select>
+                    </div>
+
+                    <button class="search-button" type="submit">Search Flights →</button>
+                </form>
+
+                <p class="demo-note">
+                    Demo interface only — flight search is not connected.
+                </p>
+            </div>
+        </section>
+
+        
+        <section class="quick-links" aria-label="Travel services">
+            <a href="#manage" class="quick-card" id="manage">
+                <span class="quick-icon">▤</span>
+                <span><strong>Manage Booking</strong><small>View or update your trip</small></span>
+                <span class="card-arrow">↗</span>
+            </a>
+
+            <a href="#checkin" class="quick-card" id="checkin">
+                <span class="quick-icon">✓</span>
+                <span><strong>Web Check-in</strong><small>Get ready for take-off</small></span>
+                <span class="card-arrow">↗</span>
+            </a>
+
+            <a href="#status" class="quick-card" id="status">
+                <span class="quick-icon">◷</span>
+                <span><strong>Flight Status</strong><small>Check your flight details</small></span>
+                <span class="card-arrow">↗</span>
+            </a>
+        </section>
+
+       
+        <section class="offers-section">
+            <div class="offers-copy">
+                <p class="eyebrow red-text">THE WORLD AWAITS</p>
+                <h2>Your next story<br>starts in the sky.</h2>
+                <p>
+                    From memorable getaways to journeys back home,
+                    make every mile part of something special.
+                </p>
+                <a href="#book" class="text-link">Discover your next journey ↗</a>
+            </div>
+
+            <div class="offers-image">
+                <div class="image-label">
+                    <span>TRAVEL MORE</span>
+                    <strong>Dream beyond.</strong>
+                </div>
+            </div>
+        </section>
+    </main>
+
+  
+    <footer class="footer">
+        <a href="#" class="brand footer-brand">
+            <span class="brand-symbol">✦</span>
+            <span class="brand-name">AIR INDIA</span>
+        </a>
+        <p>Inspired by India. Connected to the world.</p>
+        <span class="footer-note">Student front-end practice project</span>
+    </footer>
+
+</body>
+</html>
